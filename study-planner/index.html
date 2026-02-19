@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Study Planner and Resource Finder for students."
+    />
+    <title>Study Planner & Resource Finder</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Study Planner</h1>
+    </header>
+
+    <section id="task-section">
+      <h2st>Add Study Task</h2st>
+      <input type="text" id="task-title" placeholder="Task Title" />
+      <input type="text" id="task-subject" placeholder="Subject" />
+      <input type="date" id="task-date" />
+      <button id="add-task">Add Task</button>
+
+      <ul id="task-list"></ul>
+    </section>
+
+    <section id="resource-section">
+      <h2>Find Study Books</h2>
+      <input type="text" id="search-input" placeholder="Search for books" />
+      <button id="search-books">Search Books</button>
+
+      <div id="results"></div>
+    </section>
+
+    <section id="resource-section">
+      <h2>Find Study Resources</h2>
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search books or definitions"
+      />
+      <button id="search-books">Search Books</button>
+      <button id="search-definition">Search Definition</button>
+
+      <div id="results"></div>
+    </section>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
